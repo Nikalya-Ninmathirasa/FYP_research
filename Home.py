@@ -32,7 +32,7 @@ st.markdown(
 )
 
 # Add the image with center alignment
-st.markdown('<div class="center"><img src="https://cdn.dribbble.com/users/6985884/screenshots/15849023/media/6dfb9f3caf75d8b6acc1f9bde6b885fa.gif" alt="Image" width="150"></div>', unsafe_allow_html=True)
+st.markdown('<div class="center"><img src="https://cdn-idpgf.nitrocdn.com/TSeLIaDKAUBecatjFLZJpxhTJKErGZRH/assets/images/optimized/rev-4f3053c/insights/wp-content/uploads/2020/11/chatbots.gif" alt="Image" width="150"></div>', unsafe_allow_html=True)
 
 
 st.markdown('<p style="font-size:30px; color:black; text-align:center;">Chatbot for helping Hotel marketers for promoting their businesses in Galle District</p>', unsafe_allow_html=True)
