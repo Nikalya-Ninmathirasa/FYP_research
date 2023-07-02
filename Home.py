@@ -51,7 +51,7 @@ if tab1.button('Fetch Google Trends data for selected keywords'):
     kw_list = selected_keywords
 
     # Get Google Trends data
-    pytrends.build_payload(kw_list, timeframe='today 2-y')
+    pytrends.build_payload(kw_list, timeframe='today 5-y')
 
     # Get interest over time
     data = pytrends.interest_over_time()
