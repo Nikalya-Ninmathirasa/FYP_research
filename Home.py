@@ -18,7 +18,7 @@ from llama_index.query_engine import RetrieverQueryEngine
 st.set_page_config(page_title=None, page_icon=None, layout="wide", initial_sidebar_state="auto", menu_items=None)
 
 #image
-st.image("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYTgiF3yEikk8dHCEtNopggWOxSEsEOgXl6g&usqp=CAU", width=100, use_column_width=True)
+st.image("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNmbbuVqoA2mtNcl9VEKVXXoS4ZxXuI4y4CQ&usqp=CAU", width=100, height=100, use_column_width=True)
 
 # Initialize pytrends
 
