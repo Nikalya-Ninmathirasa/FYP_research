@@ -17,10 +17,21 @@ from llama_index.query_engine import RetrieverQueryEngine
 
 st.set_page_config(page_title=None, page_icon=None, layout="wide", initial_sidebar_state="auto", menu_items=None)
 
-#image
-st.image("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNmbbuVqoA2mtNcl9VEKVXXoS4ZxXuI4y4CQ&usqp=CAU", width=150)
+st.markdown(
+    """
+    <style>
+    .center {
+        display: flex;
+        justify-content: center;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
 
-# Initialize pytrends
+# Add the image with center alignment
+st.markdown('<div class="center"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNmbbuVqoA2mtNcl9VEKVXXoS4ZxXuI4y4CQ&usqp=CAU" alt="Image" width="300"></div>', unsafe_allow_html=True)
+
 
 st.markdown('<p style="font-size:30px; color:black; text-align:center;">Chatbot for helping Hotel marketers for promoting their businesses in Galle District</p>', unsafe_allow_html=True)
 
