@@ -24,6 +24,7 @@ st.markdown(
         display: flex;
         justify-content: center;
         height:150px;
+        margin:200px;
     }
     </style>
     """,
